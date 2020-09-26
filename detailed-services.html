@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fcec534a4e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="media/title_logo.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="detailed.css">
+    <link rel="stylesheet" href="css/bpg-extrasquare-mtavruli.min.css">
+    <title>Smart - GPS სერვისები</title>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-nav">
+        <a class="navbar-brand" id="logo" href="index.html">
+            <img class="logo-1" src="media/logo_light.svg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li id="main" class="nav-item active slide-changer ml-auto">
+                    <a class="nav-link text-light" href="index.html">მთავარი<span class="sr-only">(current)</span></a>
+                </li>
+                <li id="about-us" class="nav-item slide-changer">
+                    <a class="nav-link text-light" href="index.html?&page=1">ჩვენ შესახებ</a>
+                </li>
+                <li id="services" class="nav-item slide-changer">
+                    <a class="nav-link text-light" href="index.html?&page=2">სერვისები</a>
+                </li>
+                <li id="contact" class="nav-item slide-changer ">
+                    <a class="nav-link text-light " href="index.html?&page=3">კონტაქტი</a>
+                </li>
+
+                <li id="language-picker" class="nav-item dropdown ml-auto">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"><img src="media/ka.png" alt="Alternate Text" /></a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#"><img src="media/en.png" alt="Alternate Text" /></a>
+                        <a class="dropdown-item" href="#"><img src="media/ka.png" alt="Alternate Text" /></a>
+                        <a class="dropdown-item" href="#"><img src="media/ru.png" alt="Alternate Text" /></a>
+                    </div>
+                </li>
+                <li id="log-in" class="nav-item nav-link text-light ">
+                    <a href="http://control.smartgps.ge/?p=login#/login"><div><i class="fas fa-sign-in-alt"></i><span>შესვლა</span></div></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-nav-for-mobile">
+        <a class="navbar-brand" id="logo" href="index.html">
+            <img class="logo-1" src="media/logo_light.svg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li id="main" class="nav-item active slide-changer ml-auto">
+                    <a class="nav-link text-light" href="indexh#first-slide">მთავარი<span class="sr-only">(current)</span></a>
+                </li>
+                <li id="about-us" class="nav-item slide-changer">
+                    <a class="nav-link text-light" href="index.html#second-background">ჩვენ შესახებ</a>
+                </li>
+                <li id="services" class="nav-item slide-changer">
+                    <a class="nav-link text-light" href="index.html#third-slide">სერვისები</a>
+                </li>
+                <li id="contact" class="nav-item slide-changer ">
+                    <a class="nav-link text-light " href="index.html#fourth-slide">კონტაქტი</a>
+                </li>
+
+                <li id="language-picker" class="nav-item dropdown ml-auto">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"><img src="media/ka.png" alt="Alternate Text" /></a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item language-menu-hider" href="#"><img src="media/en.png" alt="Alternate Text" /></a>
+                        <a class="dropdown-item language-menu-hider" href="#"><img src="media/ka.png" alt="Alternate Text" /></a>
+                        <a class="dropdown-item language-menu-hider" href="#"><img src="media/ru.png" alt="Alternate Text" /></a>
+                    </div>
+                </li>
+                <li id="log-in" class="nav-item nav-link text-light ">
+                    <a href="http://control.smartgps.ge/?p=login#/login"><div><i class="fas fa-sign-in-alt"></i><span>შესვლა</span></div></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      <div id="service-list">
+        <div class="overlay"></div>
+        <!-- <div id="back-to-main" class="col-xl-9 col-lg-9 col-md-9 col-sm-12"><a href="index.html?&page=2"><button type="button" class=" btn btn-outline-light" id="btn-back-to-main" ><i class="fas fa-chevron-circle-left"></i>უკან</button></a></div> -->
+         <div class="container" id="accordion-container" >
+          <div class="row">
+            <div class="col-xl-8 col-lg-8-col-md-8 col-sm-12" id="accordion">
+              <div class="card">
+                <div class="card-header" id="heading-1">
+                  <h5 class="mb-0">
+                    <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                      მარშრუტის კონტროლი და დაგეგმვა
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+                  <div class="card-body">
+                    <p>პლატფორმა იძლევა შესაძლებლობას წინასწარ დაიგეგმოს მოძრაობის მარშრუტი,
+                  მაქსიმალური ეფექტურობის მისაღწევად (სასწრაფო შეკვეთების შესრულება,
+                  ახლოს მდებარე უბნების ერთ მარშრუტში მოქცევა, განმეორებითი ვიზიტების კონტროლი).
+                  სისტემა იძლევა ინფორმაციას კონკრეტულ მომენტში საიდან, სად და რა სიჩქარით მიემართება თანამშრომელი.
+                  სისტემა აცნობებს მენეჯმენტს მნიშვნელოვანი მარშრუტიდან გადახრას დროის და ადგილის მითითებით.
+                   ამავდროულად იძლევა ზუსტ ტრაექტორიას რუკაზე, მანძილს, დროს გზაში და პარკინგებზე, გადაადგილების
+                   სიჩქარეს და მძღოლის აგრესიულობის დონეს. სისტემა იძლევა შესაძლებლობას გაკონტროლდეს თუ რა დრო გაატარა
+                   თანამშრომელმა თითოეულ ვიზიტზე.
+                 </p>
+               </div>
+             </div>
+           </div>
+           <div class="card">
+             <div class="card-header" id="heading-2">
+               <h5 class="mb-0">
+                 <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                   შეტყობინებები
+                 </a>
+               </h5>
+             </div>
+             <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+               <div class="card-body">
+                 <p>შეტყობინებები მნიშვნელოვანი მოვლენების შესახებ. მაგალითად ინფორმაცია ადგილდებარეობის შესახებ
+                   (გეოზონაში შესვლა-გამოსვლა), SOS შეტყობინება, ავტო-საგზაო შემთხვევა და ა.შ
+                 </p>
+               </div>
+             </div>
+           </div>
+           <div class="card">
+             <div class="card-header" id="heading-3">
+               <h5 class="mb-0">
+                 <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                   საწვავის ხარჯი და კომპენსაციები პირადი ავტომობილებით სარგებლობისათვის
+                 </a>
+               </h5>
+             </div>
+             <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+               <div class="card-body">
+                 <p>სატრანსპორტო საშუალების ავზებში დამონტაჟებული დამატებითი სენსორი იძლევა შესაძლებლობას გაკონტროლდეს
+                   საწვავის არსებული დონე, ხარჯი, გადახრა დაგეგმილიდან, მითითებული პერიოდის მიხედვით და პერიოდის ზუსტი
+                    გარბენი სამუშაო გრაფიკის გათვალისწინებით.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading-4">
+                  <h5 class="mb-0">
+                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                      ერთჯერადი “დავალებების“ მოდული
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
+                  <div class="card-body">
+                    <p>პლატფორმა შესაძლებლობას აძლევს მომხმარებლებს შექმნან ერთჯერადი „დავალებები“
+                      და ავტომატურად გაუნაწილონ პერსონალს ოპტიმიზაციის ალგორითმის მიხედვით :
+                      მარშრუტი, დრო, მოქმედება, თანამშრომელი</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="heading-5">
+                    <h5 class="mb-0">
+                      <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                        ანალიტიკა და რეპორტინგი
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+                    <div class="card-body">
+                      <p>ეს მოდული იძლევა სრულ ანალიტიკას, რომელიც საჭიროა სტრატეგიული დაგეგმარებისთვის,
+                        თანამშრომელთა მოტივირების და ანაზრაურების სისტემის ჩამოყალიბებისთვის, რეპორტინგი მოიცავს შემდეგ კრიტიკულ საკითხებს:</p>
+                        <ul class="services-info">
+                          <li>შესრულებული სამუშაოსა და გახარჯული რესურსების რეპორტი</li>
+                          <li>ისტორია შესრულებული სამუშაოების შესახებ , რომელშიც ფიქსირდება ყველა ეტაპი და ცვლილებები, თანამშრომლების კომენტარები.</li>
+                          <li>გაზიარების ფუნქცია სხვა და სხვა განყოფილებების მენეჯერებისთვის</li>
+                        </ul>
+                        <p>ანალიტიკის მოდულის მეშვებით მიიღებთ მომენტალურ წვდომას მონაცემების ისტორიაზე და
+                          გექნებათ შესაძლებლობა შეაფასოთ თითოეული მარშრუტის სიგრძე, ხანგრძლივობა და საწვავის ხარჯი.</p>
+                          <ul class="services-info">
+                            <li>ეფექტურობის დონის ასამაღლებად მიიღეთ სრული რეპორტინგი საწვავის, საბურავების და საპოხი მასალების ხარჯების შესახებ დეპარტამენტებისა და
+                              თანამშრომელების მიხედვით.</li>
+                              <li>ინტერაქტიული რეპორტების მიღება შესაძლებელია რამდენიმე წამში PDF, Excel ფორმატებში.</li>
+                              <li>შეამცირეთ ავტოსაგზაო შემთხვევების რაოდენობა, თანამშრომელების ტარების მანერის, აგრესიულობის დონის კონტროლის მეშვეობით.</li>
+                              <li>მიიღეთ შეტყობინებები ავტოპარკის გეგმიური ტექნიკური მომსახურების შესახებ.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading-6">
+                          <h5 class="mb-0">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                              მობილური აპლიკაცია
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+                          <div class="card-body">
+                            <p>მობილური აპლიკაციის მეშვეობით გექნებათ შესაძლებლობა მიიღოთ ინფორმაცია და შეაფასოთ
+                              სავაჭრო ობიექტები გადახდისუნარიანობის მიხედვით და გადახდების ისტორიიდან გამომდინარე
+                              შეუცვალოთ საკრედიტო რეიტინგი თითოეულ სავაჭრო ობიექტს. პლატფორმას აქვს ორი ძირითადი
+                              ფუნქცია: წარმოადგენს დებიტორული მოთხოვნების მიღების ინსტრუმენტს და აფრთხილებს მომხმარებლებს
+                              რისკებზე. სპეციალურად შექმნილი ანალიტიკური პროგრამული უზრუნველყოფა შეაფასებს სავაჭრო ობიექტებს
+                              10 ქულიანი სისტემით, სადაც (10 ქულა ურისკოა, ხოლო 0 მაქსიმალურად რისკიანი). აპლიკაციის
+                              ალგორითმი რეიტინგად გარდაქმნის დისტიბუტორის მიერ მინიჭებულ სტატუსებს. მონაცემთა ბაზა ყოველდღიურად
+                              განახლებადია, რაც მნიშვნელოვნად ამცირებს სავაჭრო ობიექტებისგან ვალის მიუღებლობის რისკს</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="heading-7">
+                            <h5 class="mb-0">
+                              <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+                                SmartApp
+                              </a>
+                            </h5>
+                          </div>
+                          <div id="collapse-7" class="collapse" data-parent="#accordion" aria-labelledby="heading-7">
+                            <div class="card-body">
+                              <p>კომპანია სმარტ ჯიპიესი სადისტრიბუციო კომპანიებს სთავაზობს ინოვაციურ და ეფექტურ აპლიკაციას Smart APP-ს,
+                                რომელიც კომპანიის მენეჯმენტს საშუალებას აძლევს მიიღოს თანამშრომლების მიერ შესრულებული სამუშაოს სრული სურათი
+                                აპლიკაციის გადმოტვირთვა მოხდება სავაჭრო წარმომადგენლების ე.წ „პოკეტებში“, რომლის საშუალებითაც კომპანიის მენეჯმენტი
+                                მიიღებს დეტალურ რეპორტს წინასწარ შედგენილი მარშრუტების მიხედვით:</p>
+                                <ul class="services-info">
+                                  <li>ვიზიტირებულ ობიექტებზე</li>
+                                  <li>არავიზიტირებულ (გამოტოვებულ) ობიექტებზე</li>
+                                  <li>არაგეგმიურ ვიზიტებზე</li>
+                                </ul>
+                                <div id="accordion-7">
+                                  <div class="card">
+                                    <div class="card-header" id="heading-7-1">
+                                      <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7-1" aria-expanded="false" aria-controls="collapse-7-1">
+                                          როგორ მუშაობს SmartApp?
+                                        </a>
+                                      </h5>
+                                    </div>
+                                    <div id="collapse-7-1" class="collapse" data-parent="#accordion-7" aria-labelledby="heading-7-1">
+                                      <div class="card-body">
+                                        <div id="accordion-7-1">
+                                          <p>თითოეულ კომპანიას აქვს წვდომა ინდივიდუალურ მონაცემთა ბაზაზე,
+                                            სადაც შეტანილია ინფორმაცია თითოეულ სავაჭრო ობიექტზე (ობიექტის დასახელება,
+                                            საიდენტიფიკაციო კოდი, ზუსტი მისამართი რუკაზე)</p>
+                                            <ul class="services-info">
+                                              <li>პლატფორმა აფიქსირებს ვიზიტს დროს, ადგილს და მკაცრად მითითებული თანამიმდევრობას მარშრუტიდან
+                                                გადახვევის ან თანამიმდევრობის დაუცველობის შემთხვევაში აღრიცხავს დარღვევებს და ასახავს საბოლოო რეპორტში.</li>
+                                                <li>სისტემაში შესაძლებელია ნებისმიერ დროს მოხდეს, როგორც სავაჭრო წარმომადგენლის (დისტრიბუტორის) ასევე სავაჭრო
+                                                  ობიექტის წაშლა და დამატება</li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="heading-7-2">
+                                              <h5 class="mb-0">
+                                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7-2" aria-expanded="false" aria-controls="collapse-7-2">
+                                                  Smart APP-რეპორტი
+                                                </a>
+                                              </h5>
+                                            </div>
+                                            <div id="collapse-7-2" class="collapse" data-parent="#accordion-7" aria-labelledby="heading-7-2">
+                                              <div class="card-body">
+                                                <p>წინასწარ შეყვანილი მარშრუტების საფუძველზე სერვერი დაამუშავებს დაგროვებულ
+                                                  ინფორმაციას და დააგენერირებს რეპორტს, რომელსაც დააგზავნის თქვენს მიერ მითითებულ ადრესატებთან.</p>
+                                                  <ul class="services-info">
+                                                    <li>ვიზიტირებული</li>
+                                                    <li>არავიზიტირებული (გამოტოვებული)</li>
+                                                    <li>არაგეგმიური ვიზიტი</li>
+                                                    <li>სტენდის ფოტო რეპორტი</li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="detailed.js"></script>
+
+  </body>
+</html>

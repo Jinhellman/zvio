@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>მთავარი - სმარტ მონიტორინგი</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fcec534a4e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="media/title_logo.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bpg-extrasquare-mtavruli.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-nav">
+      <a class="navbar-brand" id="logo" href="index.html">
+          <img class="logo-1" src="media/logo_light.svg" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li id="main" class="nav-item active slide-changer ml-auto">
+                  <a class="nav-link text-light" href="#">მთავარი<span class="sr-only">(current)</span></a>
+              </li>
+              <li id="about-us" class="nav-item slide-changer">
+                  <a class="nav-link text-light" href="#">ჩვენ შესახებ</a>
+              </li>
+              <li id="services" class="nav-item slide-changer">
+                  <a class="nav-link text-light" href="#">სერვისები</a>
+              </li>
+              <li id="contact" class="nav-item slide-changer ">
+                  <a class="nav-link text-light " href="#">კონტაქტი</a>
+              </li>
+
+              <li id="language-picker" class="nav-item dropdown ml-auto">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false"><img src="media/ka.png" alt="Alternate Text" /></a>
+                  <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#"><img src="media/en.png" alt="Alternate Text" /></a>
+                      <a class="dropdown-item" href="#"><img src="media/ka.png" alt="Alternate Text" /></a>
+                      <a class="dropdown-item" href="#"><img src="media/ru.png" alt="Alternate Text" /></a>
+                  </div>
+              </li>
+              <li id="log-in" class="nav-item nav-link text-light ">
+                  <a href="http://control.smartgps.ge/?p=login#/login"><div><i class="fas fa-sign-in-alt"></i><span>შესვლა</span></div></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-nav-for-mobile">
+      <a class="navbar-brand" id="logo" href="index.html">
+          <img class="logo-1" src="media/logo_light.svg" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li id="main" class="nav-item active slide-changer ml-auto">
+                  <a class="nav-link text-light" href="#first-slide">მთავარი<span class="sr-only">(current)</span></a>
+              </li>
+              <li id="about-us" class="nav-item slide-changer">
+                  <a class="nav-link text-light" href="#second-background">ჩვენ შესახებ</a>
+              </li>
+              <li id="services" class="nav-item slide-changer">
+                  <a class="nav-link text-light" href="#third-slide">სერვისები</a>
+              </li>
+              <li id="contact" class="nav-item slide-changer ">
+                  <a class="nav-link text-light " href="#fourth-slide">კონტაქტი</a>
+              </li>
+
+              <li id="language-picker" class="nav-item dropdown ml-auto">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false"><img src="media/ka.png" alt="Alternate Text" /></a>
+                  <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item language-menu-hider" href="#"><img src="media/en.png" alt="Alternate Text" /></a>
+                      <a class="dropdown-item language-menu-hider" href="#"><img src="media/ka.png" alt="Alternate Text" /></a>
+                      <a class="dropdown-item language-menu-hider" href="#"><img src="media/ru.png" alt="Alternate Text" /></a>
+                  </div>
+              </li>
+              <li id="log-in" class="nav-item nav-link text-light ">
+                  <a href="http://control.smartgps.ge/?p=login#/login"><div><i class="fas fa-sign-in-alt"></i><span>შესვლა</span></div></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div  class="swiper-slide" id="first-slide">
+              <div class="overlay"></div>
+                <div class="container">
+                    <div class="row vh-100">
+                        <div id="first-slide-text" class="col-lg-12 col-sm-12">
+                            <h1 id="first-h1">GPS მონიტორინგი</h1>
+                            <p id="first-p">დაგეგმეთ და ონლაინ აკონტროლეთ თქვენი კომპანიის ავტომობილები, ტვირთი და თანამშრომლები.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" id="second-background" >
+              <div class="overlay"></div>
+              <div class="container h-100" id="second-container">
+                <div class="row h-100">
+                  <div class="col-xl-8 col-md-12 col-sm-12 order-xl-2  sp2" id="second-slide"></div>
+                  <div class="col-xl-4 col-md-12 col-sm-12 order-xl-1  sp1">
+                        <h1 class="second-h1">რატომ ჩვენ?</h1>
+                        <hr/>
+                        <p class="second-p">
+                            Smart GPS წარმოადგენს ანალიტიკურ ვებ პლატფორმას და მობილურ აპლიკაციას,
+                            რომელიც სადისტრიბუციო და სატრანსპორტო კომპანიებს შესთავაზებს სრულიად
+                            „ციფრულ“ ბიზნეს გადაწყვეტილებებს, რომელიც ერთის მხრივ ეფექტურს გახდის
+                            საოპერაციო საქმიანობას, შეამცირებს სავაჭრო რისკებს, და მეორეს მხრივ გაზრდის
+                            მათ შემოსავლებს, ინოვაციური, თანამედროვე ტექნოლოგიებისა და გადაწყვეტილებების
+                            გამოყენებით..
+                        </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div  class="swiper-slide" id="third-slide">
+              <div class="overlay"></div>
+                <div class="container">
+                    <div class="row vh-100">
+
+                        <div id="third-slide-text" data-slide="3" class="col-lg-8 col-sm-12">
+                            <h1 id="third-h1">GPS მონიტორინგი </h1>
+                            <button type="button" class="btn btn-outline-light" id="third-p-button" >აღწერა</button>
+                            <p id="third-p">
+                              Smart GPS შედგება რამდენიმე მოდულისგან GPS მონოტორინგისა და ანალიტიკის მოდული -
+                               მოიცავს GPS მომსახურებას სადისტრიბუციო და სატრანსპორტო კომპანიებითვის. სერვისი თავის თავში
+                               მოიაზრებს შემდეგ ფუნქციებს:
+                              ავტომობილისა და თანამშრომელის ზუსტი ადგილმდებარეობის განსაზღვრა- აძლევს მენეჯერებს
+                              ინფორმაციას თუ სად იმყოფება თანამშრომელი და რამდენ დროს ატარებს თითოეულ ობიექტზე, მოცემული
+                              ფუნქცია წარმოადგენს უმნიშვნელოვანეს ინფორმაციას სადისტრიბუციო სეგმენტისთვის. აღსანიშნავია, რომ
+                              გამოყენებული GPS / GLONASS /LBS ტექნოლოგიები უზრუნველყობს ზუსტ (5 მ-მდე) და საიმედო გეოლოკაციას.
+                            </p>
+                        </div>
+                        <div id="jumping-arrow">
+                          <a  href="detailed-services.html">
+                            <div id="arrow-down">
+                              <i class="fas fa-chevron-down"></i>
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div  class="swiper-slide" id="fourth-slide">
+              <div class="overlay"></div>
+                <div class="container">
+                  <div class="row">
+                    <div id="mail-form" class="col-xl-4 col-md-12 col-sm-12">
+                      <form class="" action="index.html" method="post">
+                        <input type="text" name="fName" placeholder="სახელი" required>
+                        <input type="email" name="mail" placeholder="ელ-ფოსტა" required>
+                        <textarea name="message" rows="4" cols="60" placeholder="შეტყობინება" required></textarea>
+                        <button id="btn-send" type="submit" class=" btn btn-outline-light">გაგზავნა</button>
+                      </form>
+                    </div>
+                    <div id="contact-info" class="col-xl-4 col-md-12 col-sm-12 ">
+                      <h2 style="padding-top:3%;">მართე მარტივად</h2>
+                      <a class="contact"  target="_blank" href="https://www.google.com/maps/place/41%C2%B048'16.1%22N+44%C2%B046'44.1%22E/@41.8044824,44.7776006,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d41.8044804!4d44.7789021"><i class="fas fa-map-marker-alt"></i>  ჩვენი მისამართი</a>
+                      <a class="phone-number" href="tel:+995 577 55 85 08">+995 577 55 85 08</a>
+                      <a class="phone-number" href="tel:+995 577 24 22 77">+995 577 24 22 77</a>
+                      <a id="mail" class="contact" href="mailto:Info@smartgps.ge"><i class="fas fa-envelope"></i> Info@smartgps.ge</a>
+                      <div id="social-networks">
+                        <a target="_blank" href="https://www.facebook.com/%E1%83%A1%E1%83%9B%E1%83%90%E1%83%A0%E1%83%A2-%E1%83%AF%E1%83%98%E1%83%9E%E1%83%98%E1%83%94%E1%83%A1%E1%83%98-Smart-GPS-175375679698779" class="fa fa-facebook"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/smartgpsgeorgia/" class="fa fa-linkedin"></a>
+                        <a target="_blank" href="https://www.instagram.com/explore/" class="fa fa-instagram"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <ul>
+            <li class="active"><a class="nav-link text-light pagination-special" href="#"><div id="slide1" class="vl"></div><span class="pagination-labels">მთავარი</span></a></li>
+            <li><a class="nav-link text-light pagination-special" href="#"><div id="slide2" class="vl"></div><span class="pagination-labels">ჩვენ შესახებ</span></a></li>
+            <li><a class="nav-link text-light pagination-special" href="#"><div id="slide3" class="vl"></div><span class="pagination-labels">სერვისები</span></a></li>
+            <li><a class="nav-link text-light pagination-special" href="#"><div id="slide4" class="vl"></div><span class="pagination-labels">კონტაქტი</span></a></li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha512-0+SppYGxjfZ+5clBrJbcVIC/984AGub2ahawvvjG+DoaJEWnO7ReppZdthk7HmF/jaiI8gVtpfNM5HgXp16Mgw==" crossorigin="anonymous"></script>
+    <script src="myscript.js"></script>
+
+
+
+
+</body>
+</html>

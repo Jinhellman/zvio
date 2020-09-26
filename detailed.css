@@ -1,0 +1,129 @@
+html, body{
+  background-image: url(media/3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* overflow-y: scroll; */
+}
+#parent-acc-item{
+  overflow-y: scroll;
+}
+/* ::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px darkslategray;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #898a8e;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(64,64,64, 0.3);
+} */
+a{
+  color:#ccc;
+  text-decoration: none;
+}
+.mb-0 > a {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+  color:darkgray;
+}
+.card{
+  background-color:transparent;
+  border:none;
+}
+.card-header:hover{
+  color:#ccc;
+}
+
+.card-header:hover a{
+  color:#ffffff;
+}
+.card-body{
+  color:#ccc;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+}
+
+.mb-0 > a:after {
+  content: "\f078";
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+  margin-left: auto;
+  color:darkgray;
+}
+.mb-0 > a[aria-expanded="true"]:after {
+  content: "\f077";
+  position: absolute;
+  margin-left: auto;
+  color:#Ccc;
+}
+.mb-0 > a:after:hover{
+  color:darkslategray;
+}
+#accordion-container{
+  position: absolute;
+  top:30%;
+}
+#accordion{
+  margin:0 auto;
+}
+#accordion a{
+
+}
+
+.services-info li{
+  color:#ccc;
+  font-size: 0.9rem;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  visibility: hidden;
+}
+@media screen and (min-width:991px) and (max-width:1024px){
+  .nav-item{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:768) and (orientation: landscape){
+  #navbarNav{
+    background-color: black;
+  }
+
+  .panel{
+    font-size: 0.9rem;
+  }
+  .inner-panel p, ul li{
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width:576px) {
+  .card-body p{
+    font-size: 0.8rem;
+  }
+  .services-info li{
+    font-size: .75rem;
+  }
+  .card-header h5{
+    font-size: 1rem;
+  }
+}
